@@ -1,0 +1,42 @@
+.text-container {
+    border: 0.3rem solid hsl(115, 100%, 50%);
+    padding: 2rem;
+    
+}
+.title {
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.body-text {
+    text-align: left;
+    margin-top: 1rem;
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+.credit a {
+    font-family: Inter;
+    font-weight: 700;
+    color: #0000EE;
+}
+footer {
+    position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+    text-align: center;
+}
